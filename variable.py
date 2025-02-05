@@ -1,6 +1,6 @@
 # A VARIABLE is a container used to store a value
 
-numbers =10
+number =10
 firstname ="faith"
 lastname ="kariuki"
 language = "python"
@@ -10,7 +10,7 @@ b =15
 
 
 
-print(numbers)
+print(number)
 print(firstname)
 print(lastname)
 print(firstname,lastname)
