@@ -16,3 +16,8 @@ while number <=10 :
 # for loop
 for x in range(105,110,2):
    print("number is" ,x)
+
+
+devices = ["laptop","mouse","computer"]
+for y in devices:
+  print(y)
