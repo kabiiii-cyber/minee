@@ -27,8 +27,8 @@ multiply()
 # parameter/variable and argument/value
 def add(a,b):
   print(a+b)
-add(a:1,b:4)
-add(a:5,b:6)
+add(1,4)
+add(5,6)
 
 #difficulty in add
 
@@ -53,14 +53,12 @@ def employee(name,gender,position,salary,age):
 def employee(fullname, gender, course, age):
   print(fullname, gender, course, age)
 
-  employee("mark", "male", "mit",20)
-  employee("john", "male", "mit",22)
-  employee("juliana", "female", "data science",23)
-  employee("grace", "female", "cyber security",19)
-  employee("maureen", "female", "idct",21)
+employee("mark", "male", "mit",20)
+employee("john", "male", "mit",22)
+employee("juliana", "female", "data science",23)
+employee("grace", "female", "cyber security",19)
+employee("maureen", "female", "idct",21)
 
-
-
-  #use a user-defined function with the parameter
+ #use a user-defined function with the parameter
   #and an argument
   #Fullname,age, course,gender
